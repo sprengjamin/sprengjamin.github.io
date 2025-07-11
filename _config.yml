@@ -33,7 +33,7 @@ author:
 
   # Academic websites
   academia         : # URL
-  arxiv            : "https://arxiv.org/search/?searchtype=author&query=Spreng%2C+B"
+  arxiv            : #"https://arxiv.org/search/?searchtype=author&query=Spreng%2C+B"
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=Py2Plv8AAAAJ"
   impactstory      : # URL
   orcid            : "https://orcid.org/0000-0002-0819-1804"
