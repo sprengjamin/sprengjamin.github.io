@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Dr. Benjamin Spreng"
+title                    : "Benjamin Spreng"
 title_separator          : "-"
 name                     : &name "Benjamin Spreng"
 description              : &description "Physicist"
@@ -23,7 +23,7 @@ repository               : "sprengjamin/sprengjamin.github.io"
 author:
   # Biographic information
   avatar           : "profile.jpg"
-  name             : "Dr. Benjamin Spreng"
+  name             : "Benjamin Spreng"
   pronouns         : # example: "she/her"  
   bio              : "Physicist"
   location         : "Los Gatos, CA"
