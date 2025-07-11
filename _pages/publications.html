@@ -9,28 +9,229 @@ author_profile: true
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
-{% include base_path %}
+<section id="publications">
+  <h2>Journal Publications</h2>
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+  <h3>2025</h3>
 
+  <div style="display: flex; align-items: flex-start; margin-bottom: 1em;">
+    <img src="images/publications/2025-07-02_Spreng_PRL.jpg" alt="Thermal Effects PRL Cover" width="100" style="margin-right: 1em;">
+    <div>
+      <strong>Benjamin Spreng</strong>, J. N. Munday.<br>
+      “Thermal Effects in the Casimir Torque between Birefringent Plates.” <em>Phys. Rev. Lett.</em> <strong>135</strong>, 013602 (2025).<br>
+      <a href="https://doi.org/10.1103/32gq-dbms" target="_blank">DOI:10.1103/32gq-dbms</a>
+    </div>
+  </div>
+
+  <div style="display: flex; align-items: flex-start; margin-bottom: 1em;">
+    <img src="images/publications/2025-06-11_Shelden.jpg" alt="Nano Lett Cover" width="100" style="margin-right: 1em;">
+    <div>
+      C. Shelden, <strong>Benjamin Spreng</strong>, J. Garrett, et al.<br>
+      “Casimir Force Control Enabled by 3D Nanostructures.” <em>Nano Lett.</em> <strong>25</strong>, 9254–9261 (2024).<br>
+      <a href="https://doi.org/10.1021/acs.nanolett.5c01101" target="_blank">DOI:10.1021/acs.nanolett.5c01101</a>
+    </div>
+  </div>
+    
+<h3>2024</h3>
+
+    <div style="display: flex; align-items: flex-start; margin-bottom: 1em;">
+      <img src="images/publications/2024-12-03_Shelden_cover.jpeg" alt="Cover" width="100" style="margin-right: 1em;">
+      <div>
+        C. Shelden, Benjamin Spreng, J. N. Munday.<br>
+        “Opportunities and challenges involving repulsive Casimir forces in nanotechnology.” <em>Appl. Phys. Rev. 11, 041325</em> (2024).<br><a href="https://doi.org/10.1063/5.0218274" target="_blank">DOI:10.1063/5.0218274</a>
+      </div>
+    </div>
+    
+
+    <div style="display: flex; align-items: flex-start; margin-bottom: 1em;">
+      <img src="images/publications/2024-08-15_Spreng_Cover.jpg" alt="Cover" width="100" style="margin-right: 1em;">
+      <div>
+        Benjamin Spreng, C. Shelden, T. Gong, J. N. Munday.<br>
+        “Casimir repulsion with biased semiconductors.” <em>Optica Quantum 2, 013009</em> (2024).<br><a href="https://doi.org/10.1364/OPTICAQ.523360" target="_blank">DOI:10.1364/OPTICAQ.523360</a>
+      </div>
+    </div>
+    
+
+    <div style="display: flex; align-items: flex-start; margin-bottom: 1em;">
+      <img src="images/publications/" alt="Cover" width="100" style="margin-right: 1em;">
+      <div>
+        Benjamin Spreng et al..<br>
+        “Universal Casimir attraction between filaments at the cell scale.” <em>New J. Phys. 26, 266</em> (2024).<br><a href="https://doi.org/10.1088/1367-2630/ad1846" target="_blank">DOI:10.1088/1367-2630/ad1846</a>
+      </div>
+    </div>
+    
+<h3>2023</h3>
+
+    <div style="display: flex; align-items: flex-start; margin-bottom: 1em;">
+      <img src="images/publications/2023-05-12_Gong_PRL.png" alt="Cover" width="100" style="margin-right: 1em;">
+      <div>
+        T. Gong, I. Liberal, Benjamin Spreng et al..<br>
+        “Effect of Epsilon-Near-Zero Modes on the Casimir Interaction between Ultrathin Films.” <em>Phys. Rev. Lett. 130, 196901</em> (2023).<br><a href="https://doi.org/10.1103/PhysRevLett.130.196901" target="_blank">DOI:10.1103/PhysRevLett.130.196901</a>
+      </div>
+    </div>
+    
+
+    <div style="display: flex; align-items: flex-start; margin-bottom: 1em;">
+      <img src="images/publications/2023-09-27_Shelden_PRA.png" alt="Cover" width="100" style="margin-right: 1em;">
+      <div>
+        C. Shelden, Benjamin Spreng, J. N. Munday.<br>
+        “Enhanced repulsive Casimir forces between gold and thin magnetodielectric plates.” <em>Phys. Rev. A 108, 032817</em> (2023).<br><a href="https://doi.org/10.1103/PhysRevA.108.032817" target="_blank">DOI:10.1103/PhysRevA.108.032817</a>
+      </div>
+    </div>
+    
+<h3>2022</h3>
+
+    <div style="display: flex; align-items: flex-start; margin-bottom: 1em;">
+      <img src="images/publications/" alt="Cover" width="100" style="margin-right: 1em;">
+      <div>
+        T. Schoger, Benjamin Spreng, G.-L. Ingold, P. A. Maia Neto, S. Reynaud.<br>
+        “Universal Casimir interaction between two dielectric spheres in salted water.” <em>Phys. Rev. Lett. 128, 230602</em> (2022).<br><a href="https://doi.org/10.1103/PhysRevLett.128.230602" target="_blank">DOI:10.1103/PhysRevLett.128.230602</a>
+      </div>
+    </div>
+    
+
+    <div style="display: flex; align-items: flex-start; margin-bottom: 1em;">
+      <img src="images/publications/" alt="Cover" width="100" style="margin-right: 1em;">
+      <div>
+        T. Schoger, Benjamin Spreng, G.-L. Ingold, P. A. Maia Neto.<br>
+        “Casimir effect between spherical objects.” <em>Int. J. Mod. Phys. A 37, 2241009</em> (2022).<br><a href="https://doi.org/10.1142/S0217751X22410093" target="_blank">DOI:10.1142/S0217751X22410093</a>
+      </div>
+    </div>
+    
+
+    <div style="display: flex; align-items: flex-start; margin-bottom: 1em;">
+      <img src="images/publications/" alt="Cover" width="100" style="margin-right: 1em;">
+      <div>
+        T. Schoger, Benjamin Spreng, G.-L. Ingold, A. Lambrecht, P. A. Maia Neto, S. Reynaud.<br>
+        “Universal Casimir interactions in the sphere-sphere geometry.” <em>Int. J. Mod. Phys. A 37, 2241005</em> (2022).<br><a href="https://doi.org/10.1142/S0217751X22410056" target="_blank">DOI:10.1142/S0217751X22410056</a>
+      </div>
+    </div>
+    
+
+    <div style="display: flex; align-items: flex-start; margin-bottom: 1em;">
+      <img src="images/publications/2022-08-25_Gong_PRB.png" alt="Cover" width="100" style="margin-right: 1em;">
+      <div>
+        T. Gong, I. Liberal, M. Camacho, Benjamin Spreng et al..<br>
+        “Radiative energy band gap of nanostructures.” <em>Phys. Rev. B 106, 085422</em> (2022).<br><a href="https://doi.org/10.1103/PhysRevB.106.085422" target="_blank">DOI:10.1103/PhysRevB.106.085422</a>
+      </div>
+    </div>
+    
+
+    <div style="display: flex; align-items: flex-start; margin-bottom: 1em;">
+      <img src="images/publications/2022-07-04_Gong_ArXiv.png" alt="Cover" width="100" style="margin-right: 1em;">
+      <div>
+        T. Gong, Benjamin Spreng et al..<br>
+        “Electrically switchable Casimir forces using transparent conductive oxides.” <em>Phys. Rev. A 106, 062824</em> (2022).<br><a href="https://doi.org/10.1103/PhysRevA.106.062824" target="_blank">DOI:10.1103/PhysRevA.106.062824</a>
+      </div>
+    </div>
+    
+
+    <div style="display: flex; align-items: flex-start; margin-bottom: 1em;">
+      <img src="images/publications/" alt="Cover" width="100" style="margin-right: 1em;">
+      <div>
+        M. Camacho, T. Gong, Benjamin Spreng et al..<br>
+        “Engineering Casimir interactions with epsilon-near-zero materials.” <em>Phys. Rev. A 105, L061501</em> (2022).<br><a href="https://doi.org/10.1103/PhysRevA.105.L061501" target="_blank">DOI:10.1103/PhysRevA.105.L061501</a>
+      </div>
+    </div>
+    
+
+    <div style="display: flex; align-items: flex-start; margin-bottom: 1em;">
+      <img src="images/publications/2022-06-30_Spreng_IJMPA.png" alt="Cover" width="100" style="margin-right: 1em;">
+      <div>
+        Benjamin Spreng, T. Gong, J. N. Munday.<br>
+        “Recent developments on the Casimir torque.” <em>Int. J. Mod. Phys. A 37, 2241011</em> (2022).<br><a href="https://doi.org/10.1142/S0217751X22410111" target="_blank">DOI:10.1142/S0217751X22410111</a>
+      </div>
+    </div>
+    
+<h3>2021</h3>
+
+    <div style="display: flex; align-items: flex-start; margin-bottom: 1em;">
+      <img src="images/publications/" alt="Cover" width="100" style="margin-right: 1em;">
+      <div>
+        V. Henning, Benjamin Spreng, P. A. Maia Neto, G.-L. Ingold.<br>
+        “Casimir Interaction between a Plane and a Sphere.” <em>Universe 7, 129</em> (2021).<br><a href="https://doi.org/10.3390/universe7050129" target="_blank">DOI:10.3390/universe7050129</a>
+      </div>
+    </div>
+    
+
+    <div style="display: flex; align-items: flex-start; margin-bottom: 1em;">
+      <img src="images/publications/" alt="Cover" width="100" style="margin-right: 1em;">
+      <div>
+        R. O. Nunes, Benjamin Spreng et al..<br>
+        “The Casimir Interaction between Spheres Immersed in Electrolytes.” <em>Universe 7, 156</em> (2021).<br><a href="https://doi.org/10.3390/universe7050156" target="_blank">DOI:10.3390/universe7050156</a>
+      </div>
+    </div>
+    
+
+    <div style="display: flex; align-items: flex-start; margin-bottom: 1em;">
+      <img src="images/publications/" alt="Cover" width="100" style="margin-right: 1em;">
+      <div>
+        L. B. Pires, D. S. Ether, Benjamin Spreng et al..<br>
+        “Probing the screening of the Casimir interaction with optical tweezers.” <em>Phys. Rev. Research 3, 033037</em> (2021).<br><a href="https://doi.org/10.1103/PhysRevResearch.3.033037" target="_blank">DOI:10.1103/PhysRevResearch.3.033037</a>
+      </div>
+    </div>
+    
+
+    <div style="display: flex; align-items: flex-start; margin-bottom: 1em;">
+      <img src="images/publications/" alt="Cover" width="100" style="margin-right: 1em;">
+      <div>
+        G. Bimonte, Benjamin Spreng et al..<br>
+        “Measurement of the Casimir Force between 0.2 and 8 µm.” <em>Universe 7, 93</em> (2021).<br><a href="https://doi.org/10.3390/universe7040093" target="_blank">DOI:10.3390/universe7040093</a>
+      </div>
+    </div>
+    
+<h3>2020</h3>
+
+    <div style="display: flex; align-items: flex-start; margin-bottom: 1em;">
+      <img src="images/publications/" alt="Cover" width="100" style="margin-right: 1em;">
+      <div>
+        Benjamin Spreng, P. A. Maia Neto, G.-L. Ingold.<br>
+        “Plane-wave approach to the exact van der Waals interaction.” <em>J. Chem. Phys. 153, 024115</em> (2020).<br><a href="https://doi.org/10.1063/5.0011368" target="_blank">DOI:10.1063/5.0011368</a>
+      </div>
+    </div>
+    
+<h3>2019</h3>
+
+    <div style="display: flex; align-items: flex-start; margin-bottom: 1em;">
+      <img src="images/publications/" alt="Cover" width="100" style="margin-right: 1em;">
+      <div>
+        V. Henning, Benjamin Spreng, M. Hartmann, G.-L. Ingold, P. A. Maia Neto.<br>
+        “The role of diffraction in the Casimir effect.” <em>JOSA B, 36, C77–C87</em> (2019).<br><a href="https://doi.org/10.1364/JOSAB.36.000C77" target="_blank">DOI:10.1364/JOSAB.36.000C77</a>
+      </div>
+    </div>
+    
+<h3>2018</h3>
+
+    <div style="display: flex; align-items: flex-start; margin-bottom: 1em;">
+      <img src="images/publications/" alt="Cover" width="100" style="margin-right: 1em;">
+      <div>
+        Benjamin Spreng, M. Hartmann, V. Henning, P. A. Maia Neto, G.-L. Ingold.<br>
+        “WKB limit of Mie scattering to the Casimir effect.” <em>Phys. Rev. A 97, 062504</em> (2018).<br><a href="https://doi.org/10.1103/PhysRevA.97.062504" target="_blank">DOI:10.1103/PhysRevA.97.062504</a>
+      </div>
+    </div>
+    
+<h3>2015</h3>
+
+    <div style="display: flex; align-items: flex-start; margin-bottom: 1em;">
+      <img src="images/publications/" alt="Cover" width="100" style="margin-right: 1em;">
+      <div>
+        Benjamin Spreng, G.L. Ingold, U. Weiss.<br>
+        “Anomalies in the specific heat of a free damped particle.” <em>Phys. Scr. T 165, 014028</em> (2015).<br><a href="https://doi.org/10.1088/0031-8949/2015/T165/014028" target="_blank">DOI:10.1088/0031-8949/2015/T165/014028</a>
+      </div>
+    </div>
+    
+<h3>2013</h3>
+
+    <div style="display: flex; align-items: flex-start; margin-bottom: 1em;">
+      <img src="images/publications/" alt="Cover" width="100" style="margin-right: 1em;">
+      <div>
+        Benjamin Spreng, G.-L. Ingold, U. Weiss.<br>
+        “Reentrant classicality of a damped system.” <em>EPL 103, 60007</em> (2013).<br><a href="https://doi.org/10.1209/0295-5075/103/60007" target="_blank">DOI:10.1209/0295-5075/103/60007</a>
+      </div>
+    </div>
+    
+</section>
+
+</section>
 
 
